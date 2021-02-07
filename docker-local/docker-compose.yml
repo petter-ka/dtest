@@ -1,0 +1,40 @@
+version: "3.7"
+
+x-source-volumes: &api-backend-source-folder
+  - ${WORKING_DIR}/api-backend:/usr/src/app
+
+services:
+
+  api-backend:
+    image: test/api-backend
+    container_name: api-backend
+    volumes:
+      - ${WORKING_DIR}/api-backend:/usr/src/app
+    ports:
+      - 80:3000
+    networks:
+      default:
+        aliases:
+          - local-api.test.com
+    user: "node"
+    command: "dev"
+    environment:
+      - WORKDIR=/usr/src/app
+      - NODE_ENV=development
+
+  service-dotnet-hello-world:
+    image: test/service-dotnet-hello-world
+    container_name: service-dotnet-hello-world
+    ports:
+      - 80
+
+  service-springboot-hello-world:
+    image: test/service-springboot-hello-world
+    container_name: service-sprginboot-hello-world
+    ports:
+      - 8080
+
+networks:
+  default:
+    driver: bridge
+
