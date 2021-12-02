@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-backend
+  namespace: test-namespace
+spec:
+  selector:
+    matchLabels:
+      app: api-backend
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: api-backend
+    spec:
+      #restartPolicy: OnFailure
+      containers:
+
+        - image: test/api-backend:1.0.0
+          name: api-backend-server
+          #command: ["dev"]
+          env:
+            - name: WORKDIR
+              value: "/usr/src/app"
+            - name: NODE_ENV
+              value: "development"
+          ports:
+            - containerPort: 3000

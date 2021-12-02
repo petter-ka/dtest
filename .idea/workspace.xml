@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="032eb3e4-32cb-4df4-9788-f237137d61af" name="Default Changelist" comment="chore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-backend/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-backend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-backend/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-backend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-backend/nest-cli.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-backend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-backend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-backend/src/app.controller.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-backend/src/app.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-backend/src/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-backend/src/app.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-backend/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-backend/test/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-backend/test/jest-e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-backend/tsconfig.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-backend/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/api-backend/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/api-backend/scripts/docker-entrypoint.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-local/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-local/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-dotnet-hello-world/Controllers/ProductsController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-dotnet-hello-world/DockerComposeProductApi.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-dotnet-hello-world/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-dotnet-hello-world/Domain/Product.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-dotnet-hello-world/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-dotnet-hello-world/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-dotnet-hello-world/Services/IProductsService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-dotnet-hello-world/Services/ProductsService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-dotnet-hello-world/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-dotnet-hello-world/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-dotnet-hello-world/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-dotnet-hello-world/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-springboot-hello-world/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-springboot-hello-world/.gitlab-ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-springboot-hello-world/CODE-OF-CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-springboot-hello-world/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-springboot-hello-world/Jenkinsfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-springboot-hello-world/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-springboot-hello-world/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-springboot-hello-world/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-springboot-hello-world/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-springboot-hello-world/src/main/java/com/dockerforjavadevelopers/hello/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-springboot-hello-world/src/main/java/com/dockerforjavadevelopers/hello/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-springboot-hello-world/src/test/java/com/dockerforjavadevelopers/hello/DummyTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="docker-desktop" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1oAUlhxcJnMEgkacWZXMfGtVjXv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\dtest" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="032eb3e4-32cb-4df4-9788-f237137d61af" name="Default Changelist" comment="" />
+      <created>1612729042147</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612729042147</updated>
+      <workItem from="1612729043311" duration="609000" />
+      <workItem from="1614447296209" duration="603000" />
+      <workItem from="1638457167299" duration="83000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1612729163689</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612729163690</updated>
+    </task>
+    <task id="LOCAL-00002" summary="chore">
+      <created>1612729221708</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612729221708</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="chore" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2" timestamp="1612729222805">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="873" y="434" key="Vcs.Push.Dialog.v2/0.0.2560.1400/3840.590.1920.1160/-1920.597.1920.1160@0.0.2560.1400" timestamp="1612729222805" />
+  </component>
+</project>
