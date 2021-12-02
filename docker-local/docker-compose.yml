@@ -1,38 +1,55 @@
-version: "3.7"
-
-x-source-volumes: &api-backend-source-folder
-  - ${WORKING_DIR}/api-backend:/usr/src/app
+version: "3.9"
 
 services:
 
   api-backend:
-    image: test/api-backend
-    container_name: api-backend
-    volumes:
-      - ${WORKING_DIR}/api-backend:/usr/src/app
+    image: test/api-backend:1.0.0
+    container_name: teszt--api-backend
+    user: root
+    #command: "dev"
     ports:
-      - 80:3000
+      - 9955:3000
     networks:
       default:
         aliases:
           - local-api.test.com
-    user: "node"
-    command: "dev"
+    volumes:
+      #- ${WORKING_DIR}/services/api-backend:/usr/src/app
+      - node_modules_volume:/usr/src/app/node_modules
     environment:
       - WORKDIR=/usr/src/app
       - NODE_ENV=development
 
+  mysql:
+    image: mysql:latest
+    container_name: teszt--mysql
+    ports:
+      - 9765:3306
+    volumes:
+      - type: volume
+        source: mysql-volume
+        target: /var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=tesztrootpw
+      - MYSQL_DATABASE=tesztdb
+      - MYSQL_USER=dbuser
+      - MYSQL_PASSWORD=localuser
+
   service-dotnet-hello-world:
-    image: test/service-dotnet-hello-world
-    container_name: service-dotnet-hello-world
+    image: test/service-dotnet-hello-world:1.0.0
+    container_name: teszt--service-dotnet-hello-world
     ports:
       - 80
 
   service-springboot-hello-world:
-    image: test/service-springboot-hello-world
-    container_name: service-sprginboot-hello-world
+    image: test/service-springboot-hello-world:1.0.0
+    container_name: teszt--service-sprginboot-hello-world
     ports:
       - 8080
+
+volumes:
+  node_modules_volume:
+  mysql-volume:
 
 networks:
   default:
